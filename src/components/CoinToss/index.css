@@ -1,0 +1,93 @@
+/* Write your CSS here */
+
+html {
+  overflow-x: hidden;
+}
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.card-container {
+  background-color: #ffffff;
+  height: 80%;
+  width: 40%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .card-container {
+    width: 80%;
+    border-radius: 10px;
+  }
+}
+
+.header-card {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #a35200;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text-card {
+  color: #334155;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 767px) {
+  .header-card {
+    font-size: 30px;
+  }
+
+  .text-card {
+    font-size: 20px;
+  }
+}
+
+.img-card {
+  height: 40%;
+}
+
+.btn {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.result-card {
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0px;
+}
+
+.p-card {
+  color: #475569;
+  font-size: 20px;
+  font-weight: bolder;
+}
